@@ -48,6 +48,11 @@ Ensure Docker is set up:
 2. Run: `docker run -p 8888:8888 ner_project`
 3. Navigate to the provided Jupyter Notebook URL.
 
+If you want you can use docker compose:
+1. Build : `docker-compose build`
+2. Run: `docker-compose up`
+3. Navigate to the provided Jupyter Notebook URL.
+
 ## Conclusion
 
 This project, powered by spaCy, not only identifies named entities but also provides significant insights into the nature and thematic concentration of the dataset. Such insights can be pivotal for downstream tasks like content recommendation, targeted advertising, or advanced data analytics.
