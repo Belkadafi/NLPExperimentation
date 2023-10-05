@@ -59,8 +59,8 @@ If you want you can use docker compose:
 ```console
 foo@bar:~$ docker-compose build
 ```
-2. Run:
-```cosole
+2. Run :
+```console
 foo@bar:~$ docker-compose up
 ```
 3. Navigate to the provided Jupyter Notebook URL.
