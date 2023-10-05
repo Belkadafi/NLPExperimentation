@@ -44,13 +44,25 @@ On the individual entity front:
 
 Ensure Docker is set up:
 
-1. Build: `docker build -t ner_project .`
-2. Run: `docker run -p 8888:8888 ner_project`
+1. Build:
+```console
+foo@bar:~$ docker build -t ner_project .
+```
+2. Run:
+```console
+foo@bar:~$ docker run -p 8888:8888 ner_project
+```
 3. Navigate to the provided Jupyter Notebook URL.
 
 If you want you can use docker compose:
-1. Build : `docker-compose build`
-2. Run: `docker-compose up`
+1. Build :
+```console
+foo@bar:~$ docker-compose build
+```
+2. Run:
+```cosole
+foo@bar:~$ docker-compose up
+```
 3. Navigate to the provided Jupyter Notebook URL.
 
 ## Conclusion
