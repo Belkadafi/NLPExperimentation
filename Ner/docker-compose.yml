@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  jupyter-notebook:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./notebooks:/app/notebooks
+    environment:
+      - SPACY_MODEL=fr_core_news_sm
